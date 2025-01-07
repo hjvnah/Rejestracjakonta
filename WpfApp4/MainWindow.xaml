@@ -7,15 +7,15 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid Background="LightGray">
-        <Label Content="Podaj e-mail:" FontSize="15" Margin="92,81,609,322" />
-        <TextBox x:Name="email" TextWrapping="Wrap" Text="e-mail" Margin="92,112,434,284"/>
-        <Label Content="Podaj hasło:" FontSize="15" Margin="92,174,486,217"/>
-        <PasswordBox x:Name="haslo1" Margin="92,198,434,198"/>
-        <Label Content="Powtórz hasło:" FontSize="15" Margin="92,255,549,151" />
-        <PasswordBox x:Name="haslo2" Margin="92,288,434,108"/>
-        <Label Content="Rejestruj konto" FontWeight="Bold" FontSize="25" Margin="81,29,0,0" />
-        <Button x:Name="przycisk" Background="white" Content="ZATWIERDŹ" Margin="164,345,506,60"/>
-        <TextBlock x:Name="komunikat" TextWrapping="Wrap" Text="" Margin="412,185,51,180"/>
+        <Label Content="Podaj e-mail:" FontSize="15" Margin="92,76,609,0" VerticalAlignment="Top" />
+        <TextBox x:Name="email" TextWrapping="Wrap" Text="e-mail" Margin="92,112,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Height="45" Width="274" />
+        <Label Content="Podaj hasło:" FontSize="15" Margin="92,164,486,0" VerticalAlignment="Top"/>
+        <PasswordBox x:Name="haslo1" Margin="92,198,434,0" VerticalAlignment="Top" Height="52"/>
+        <Label Content="Powtórz hasło:" FontSize="15" Margin="92,260,549,0" VerticalAlignment="Top" />
+        <PasswordBox x:Name="haslo2" Margin="92,298,434,0" VerticalAlignment="Top" Height="42"/>
+        <Label Content="Rejestruj konto" FontWeight="Bold" FontSize="25" Margin="81,29,413,358" />
+        <Button x:Name="przycisk" Background="white" Content="ZATWIERDŹ" Margin="164,359,506,0" Click="przycisk_Click" VerticalAlignment="Top" Height="42"/>
+        <TextBlock x:Name="komunikat"  TextWrapping="Wrap" Text="" Margin="412,185,51,180"/>
 
 
     </Grid>

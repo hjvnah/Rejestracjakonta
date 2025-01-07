@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System.Diagnostics.Eventing.Reader;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -20,5 +21,32 @@ namespace WpfApp4
         {
             InitializeComponent();
         }
+        
+
+        private void przycisk_Click(object sender, RoutedEventArgs e)
+        {
+
+            if (!email.Text.ToString().Contains('@'))
+            {
+                komunikat.Text = "Niepoprawy email";
+            }
+            else if(!string.Equals(haslo2.Password.ToString(), haslo1.Password.ToString()))
+            {
+                komunikat.Text = "Hasła nie są identyczne";
+            }
+            else
+            {
+                komunikat.Text = "Witaj " + email.Text;
+            }
+
+            
+
+           
+        }
+
+       
+        
+            
+        
     }
 }
