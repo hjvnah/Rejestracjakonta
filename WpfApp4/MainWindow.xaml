@@ -13,7 +13,7 @@
         <PasswordBox Margin="92,198,434,198"/>
         <Label Content="Powtórz hasło:" FontSize="15" Margin="92,255,549,151" />
         <PasswordBox Margin="92,288,434,108"/>
-        <Label Content="Rejestruj konto" FontSize="25" Margin="81,29,0,0" />
+        <Label Content="Rejestruj konto" FontWeight="Bold" FontSize="25" Margin="81,29,0,0" />
         <Button Background="white" Content="ZATWIERŹ" Margin="164,345,506,60"/>
 
 
